@@ -32,8 +32,7 @@
             <td class="auto-style7">
             <asp:TextBox ID="txt_pas" TextMode="Password" runat="server" Width="273px"></asp:TextBox>
             </td>
-           
-        </tr>
+           <asp:Button ID="Button1" runat="server" Text="Button" />
     </table></center> 
             <asp:Label ID="intento" runat="server" Text=""></asp:Label>
                 <asp:Button ID="btn_iniciar" runat="server" CssClass="button alt" OnClick="btn_iniciar_Click" Text="Iniciar" Width="104px" />
